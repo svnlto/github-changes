@@ -1,0 +1,14 @@
+{{#each .}}
+  {{#if name}}
+    name: {{name}}
+    title: {{name}}
+    tagName: {{tagName}}
+    tagDate: {{tagDate}}
+    number: {{number}}
+    {{#if body}} body: {{body}} {{/if}}
+    html_url: {{html_url}}
+    login: {{login}}
+  {{/if}}
+
+{{/each}}
+

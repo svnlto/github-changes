@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 var CLI = require('../lib/cli');
-new CLI();
+new CLI({
+  repository: 'hoodie-cli'
+});
 
 

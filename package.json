@@ -15,7 +15,8 @@
     "nomnom": "1.6.2",
     "parse-link-header": "0.1.0",
     "github-commit-stream": "0.0.1",
-    "semver": "2.2.1"
+    "semver": "2.2.1",
+    "handlebars": "^2.0.0-alpha.2"
   },
   "devDependencies": {},
   "scripts": {

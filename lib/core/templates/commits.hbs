@@ -1,0 +1,18 @@
+{{#each .}}
+  name: {{name}}
+  tagName: {{tagName}}
+
+  {{#if authors}}
+    {{author}}
+  {{/if}}
+
+  pull request : {{prNumber}}
+  url: {{url}}
+  sha: {{sha}}
+  html_url: {{html_url}}
+  message: {{message}}
+  author: {{author}}
+  authorLogin: {{authorLogin}}
+
+{{/each}}
+

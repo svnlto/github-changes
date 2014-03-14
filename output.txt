@@ -1,0 +1,59 @@
+## Change Log
+
+### v0.8.0 (2013/08/14 07:33 +00:00)
+- [#25](https://github.com/hoodiehq/hoodie-server/pull/25) Database authentication fails with passwords consisting only of numbers (@soupdiver)
+- [#41](https://github.com/hoodiehq/hoodie-server/pull/41) use ecstatic instead of connect (@maxogden)
+- [#43](https://github.com/hoodiehq/hoodie-server/pull/43) Prevent couchdb admin password errors. (@phuu)
+- [#60](https://github.com/hoodiehq/hoodie-server/pull/60) Add semver check to exit on startup when CouchDB version is below 1.2.0 (@adamyeats)
+- [#61](https://github.com/hoodiehq/hoodie-server/pull/61) Force Hoodie to exit if run as sudo (@adamyeats)
+- [#70](https://github.com/hoodiehq/hoodie-server/pull/70) support for couch db installed via macports (@squiddle)
+- [#74](https://github.com/hoodiehq/hoodie-server/pull/74) Fix npm issues (node 0.10.x, npm 1.2.20) (@fhemberger)
+- [#77](https://github.com/hoodiehq/hoodie-server/pull/77) Make local-tld optional on Mac OS X. Use dynamic ports everywhere. (@hoodiehq)
+- [#78](https://github.com/hoodiehq/hoodie-server/pull/78) Open browser on start. (@hoodiehq)
+- [#83](https://github.com/hoodiehq/hoodie-server/pull/83) Fixes minimum CouchDB version to be >= rather than > 1.2.0. (@dan-transparensee)
+- [#84](https://github.com/hoodiehq/hoodie-server/pull/84) added missing parsed port from COUCH_URL (@malixsys)
+- [#91](https://github.com/hoodiehq/hoodie-server/pull/91) Don't use `mkdir -p`.  Closes #85 (@Acconut)
+- [#80](https://github.com/hoodiehq/hoodie-server/pull/80) leave couchdb platform details to node-multicouch (@hoodiehq)
+- [#93](https://github.com/hoodiehq/hoodie-server/pull/93) fix for nodejitsu hosting -- couchdb url param not being properly set after yesterday's changes. (@bbn)
+
+### true (2014/03/14 10:52 +00:00)
+- [#250](https://github.com/hoodiehq/hoodie-server/pull/250) Don't ignore "hoodie.hoodiejs" setting (@wrangr)
+
+### pre-hapi (2014/01/18 07:48 +00:00)
+- [#145](https://github.com/hoodiehq/hoodie-server/pull/145) misleading comment (@allain)
+- [#147](https://github.com/hoodiehq/hoodie-server/pull/147) Small tweak to make it clear what is being started (@allain)
+- [#150](https://github.com/hoodiehq/hoodie-server/pull/150) [feature] 3rd party apps (@hoodiehq)
+- [#164](https://github.com/hoodiehq/hoodie-server/pull/164) load hoodie.js from git / custom branch (@hoodiehq)
+- [#177](https://github.com/hoodiehq/hoodie-server/pull/177) Allow prompt-less first-time setup of admin users via ENV var (@hoodiehq)
+- [#195](https://github.com/hoodiehq/hoodie-server/pull/195) [fix] #194 adds timestamp to log output (@hoodiehq)
+
+### 0.9.6 (2014/01/30 12:07 +00:00)
+- [#216](https://github.com/hoodiehq/hoodie-server/pull/216) fix for #215 “nodejitsu deploy not working anymore”, will create pull-re... (@semanticdreamer)
+
+### 0.9.9 (2014/02/08 15:31 +00:00)
+- [#226](https://github.com/hoodiehq/hoodie-server/pull/226) Support running parallel apps (@hoodiehq)
+
+### v0.9.12 (2014/02/13 21:11 +00:00)
+- [#227](https://github.com/hoodiehq/hoodie-server/pull/227) Handle 404 redirects to index.html for HTML requests (@hoodiehq)
+- [#230](https://github.com/hoodiehq/hoodie-server/pull/230) Upgraded http-proxy version and fixed up nodejitsu_server (@wrangr)
+- [#232](https://github.com/hoodiehq/hoodie-server/pull/232) Announce all plugins when starting, not just those with a worker (@wrangr)
+- [#231](https://github.com/hoodiehq/hoodie-server/pull/231) Use newer ports version (@Acconut)
+
+### 0.9.14 (2014/02/18 12:51 +00:00)
+- [#234](https://github.com/hoodiehq/hoodie-server/pull/234) Serve hoodie.js as combined stream including plugins (@wrangr)
+
+### v0.9.15 (2014/02/22 20:17 +00:00)
+- [#237](https://github.com/hoodiehq/hoodie-server/pull/237) add _api endpoint for pocket-uikit (@hoodiehq)
+
+### v0.9.16 (2014/02/24 15:41 +00:00)
+- [#238](https://github.com/hoodiehq/hoodie-server/pull/238) [fix] Path to plugin assets directory (@hoodiehq)
+- [#239](https://github.com/hoodiehq/hoodie-server/pull/239) [fix] Assets folder needs to point to the built version, not the source (@hoodiehq)
+
+### v0.9.18 (2014/02/25 08:25 +00:00)
+- [#240](https://github.com/hoodiehq/hoodie-server/pull/240) Use browserify to bundle hoodie.js and plugins together (@wrangr)
+
+### true (2014/03/14 10:52 +00:00)
+- [#220](https://github.com/hoodiehq/hoodie-server/pull/220) Give plugins access to _api (@hoodiehq)
+- [#246](https://github.com/hoodiehq/hoodie-server/pull/246) Polish up pack_hoodie... fixes a few teething problems (@wrangr)
+- [#244](https://github.com/hoodiehq/hoodie-server/pull/244) Serve index.html on 404 when accept text/html (@wrangr)
+- [#248](https://github.com/hoodiehq/hoodie-server/pull/248) Split hooks into static and dynamic hooks (@hoodiehq)
